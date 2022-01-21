@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+
+}
+.bola{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bola1{
+    background: radial-gradient(circle at 0%, #5555FF , #d30303 , #163a01 )
+}
+
+.bola2{
+    background: radial-gradient(circle at 100%, #5555FF , #d30303 , #163a01 )
+}
+.bola3{
+   background: radial-gradient(circle at 50%, #5555FF , #d30303 , #163a01 )
+}
+.bola4{
+   background: radial-gradient(circle at 50% 100%, #5555FF , #d30303 , #163a01 )
+}
+.bola5{
+    background: radial-gradient(circle at 20% 120%, #5555FF, #0a0a0a 80%, #AAAAFF 100% )
+ }
+
+ .numero_bola{ 
+     width: 75px;
+     height: 75px;
+     background-color: white;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 40px;
+     position: relative;
+     top:10px;
+     left: 25px;
+ }
